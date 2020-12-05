@@ -13,7 +13,7 @@
 
     for ($i = 0; $i < count($array); $i++) {
         $num1 = $array[$i];
-        for ($j = 0; $j < count($array); $j++) {
+        for ($j = $i + 1; $j < count($array); $j++) {
             $num2 = $array[$j];
 
             if ($num1 + $num2 == 2020) {
